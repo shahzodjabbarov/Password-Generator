@@ -1,5 +1,6 @@
 # Password Generator
 ![image](https://github.com/user-attachments/assets/15ec2556-daad-4cc0-8c1a-f6c098e510a7)
+
 A **Password Generator** application with an elegant design created using **Photoshop** and **Figma**. This tool generates secure passwords in three difficulty levels: Easy, Normal, and Hard. Users can also save generated passwords to an Excel file for safekeeping.
 
 ---
