@@ -34,34 +34,26 @@ Follow these steps to set up and run the Password Generator on your system:
 
 ### 2. Clone or Download the Project
 Download the project files or clone the repository:
-```bash
 git clone <repository-url>
 **
+
 **### 3. Install Dependencies***
 Navigate to the project directory and install the required Python libraries:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-**4. Prepare Assets**
+
+**###4. Prepare Assets**
 Ensure the assets folder is present in the project directory. This folder should contain:
 
 new.png (Background image for the GUI).
 Button images (e.g., button_1.png, etc.).
-5. Run the Program
-Run the Python script:
 
-bash
-Copy
-Edit
+**###5. Run the Program**
+Run the Python script:
 python password_generator.py
-6. Additional Configuration for Linux Users
+
+**###6. Additional Configuration for Linux Users**
 If you are using Linux and tkinter is not installed, install it using the following command:
 
-bash
-Copy
-Edit
 sudo apt-get install python3-tk
 How to Use
 Choose a Password Type:
@@ -79,10 +71,7 @@ Press the Save button. A new window will open asking for a description of the pa
 Clear the Field:
 
 Use the Clear button to reset the text field and clear the generated password.
-File Structure
-php
-Copy
-Edit
+**File Structure**
 Password Generator/
 │
 ├── password_generator.py      # Main application file
@@ -92,32 +81,21 @@ Password Generator/
 │   ├── new.png                # Background image
 │   ├── button_1.png           # Button images
 │   └── ...                    # Other assets
-Dependencies
+**
+**Dependencies****
 The program requires the following Python libraries:
 
 pathlib (Standard Library)
 tkinter (Standard Library; may require installation on some systems)
 random (Standard Library)
 openpyxl (For working with Excel files)
-To install the required third-party library, run:
 
-bash
-Copy
-Edit
+To install the required third-party library, run:
 pip install openpyxl
-Example Output
+
+**Example Output**
 Generated Passwords:
 
 Easy: XasqRt
 Normal: 3aqB@dF6pQtz
 Hard: oL1@!mQ$xRp&TN7g*F8T#bZ
-Saved to Excel:
-
-perl
-Copy
-Edit
-| Description       | Password        |
-|-------------------|-----------------|
-| Email account     | XasqRt          |
-| Social Media      | 3aqB@dF6pQtz    |
-| Bank Account      | oL1@!mQ$xRp&TN7g*F8T#bZ |
